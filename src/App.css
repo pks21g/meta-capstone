@@ -673,9 +673,6 @@ p {
   padding: 50px 0;
 }
 
-.logo, .footer-nav-items, .contact-info, .social-media{
-  /* width:300px; */
-}
 }
 
 @media (min-width:481px) and (max-width:768px){
