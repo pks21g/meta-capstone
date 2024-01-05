@@ -11,11 +11,13 @@ const Testimonials = () => {
               <div className="review-heading">
                 <img src={review.image} className="review-image" alt="" />
                 <h3>{review.name}</h3>
+                
               </div>
               <div className="review-description">
                 <h4>{review.title}</h4>
                 <p>{review.description}</p>
               </div>
+              
             </div>
           ))}
         </div>
