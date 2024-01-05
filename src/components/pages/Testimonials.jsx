@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section className="reviews">
       <h1>Testimonials</h1>
       <div >
-        <div className="testimonials">
+        <div className="testimonials container">
           {reviews.map((review) => (
             <div key={review.id} className="testimonial">
               <div className="review-heading">

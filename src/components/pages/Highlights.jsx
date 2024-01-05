@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { recepies } from "./Recepies";
 import Swirl from 'sweetalert2'
 
@@ -23,10 +24,10 @@ const Highlights = () => {
 
   }
   return (
-    <div>
+    <div className="container">
         <div className="highlights-heading">
             <h1>This weeks specials!</h1>
-            <button className="online-menu-button">Order Online</button>
+            <Link to={'/order-online'} className="btn table">Order Online</Link>
         </div>
       <div className="highlights">
         {recepies.map((recepie) => (

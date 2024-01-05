@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
     <section className="footer-section">
-    <nav className="footer container">
+    <nav className="footer">
         <div className="logo">
           <a href="home">
           <img src={Logo} alt="" />

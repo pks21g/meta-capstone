@@ -1,7 +1,7 @@
 const reviews = [
     {
         id: 1,
-        image: "https://source.unsplash.com/mens-blue-and-white-button-up-collared-top-DItYlc26zVI",
+        image: "https://source.unsplash.com/man-in-white-dress-shirt-smiling-5n3JP9WAJTs",
         name: "John",
         title: "Great customer service",
         description: "I have been coming to this place because the people here are so nice and the customer service is great. They also know my favorite drink"
@@ -15,7 +15,7 @@ const reviews = [
     },
     {
         id: 3,
-        image: "https://source.unsplash.com/smiling-girl-in-blue-sleeveless-dress-aoQ4DYZLE_E",
+        image: "https://source.unsplash.com/woman-in-white-off-shoulder-dress-uR51HXLO7G0",
         name: "Anna",
         title: "The best in Chicago",
         description: "I have tried so many restaurants but here the taste has remained the same. Kudos to the staff"

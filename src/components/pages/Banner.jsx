@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import resimage from "../../icons_assets/restauranfood.jpg";
 import Highlights from "./Highlights";
 import Testimonials from "./Testimonials";
 import About from "./About";
@@ -7,33 +6,28 @@ import About from "./About";
 const Banner = () => {
   return (
     <>
-    <section className="banner-section">
-      <div className="banner container">
-        <div className="banner-text">
-          <h1>Little Lemon</h1>
-          <h3>Chicago</h3>
-          <p>
-            We are a family owned Mediterrarean Restaurant, focused on
-            traditional recepies served with a modern twist.
-          </p>
-
+      <section className="banner-section">
+        <div className="banner container">
+          <div className="banner-text">
+            <h1>Little Lemon</h1>
+            <h3>Chicago</h3>
+            <p>
+              We are a family owned Mediterrarean Restaurant, focused on
+              traditional recepies served with a modern twist.
+            </p>
+          </div>
           {/* Needs Fixing */}
-          <Link path to={"/booking"} className="btn table">
-            Reserve a Table
-          </Link>
+          <div className="banner-btn">
+            <Link path to={"/booking"} className="btn">
+              Reserve a Table
+            </Link>
+          </div>
         </div>
-        <div className="banner-image">
-          <img src={resimage} alt="" />
-        </div>
-      </div>
-      
-    </section>
-    <Highlights />
-    <Testimonials/>
-    <About />
+      </section>
+      <Highlights />
+      <Testimonials />
+      <About />
     </>
-    
-    
   );
 };
 

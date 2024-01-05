@@ -1,47 +1,39 @@
+import { lunch, dinner } from "./menulist";
 const Menu = () => {
-    return (
-        <section className="menu">
-            <h1>Lunch</h1>
-            <ul>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-            </ul>
-            <h1>Lunch</h1>
-            <ul>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-            </ul>
+  return (
+    <section className="menu">
+      <div className="lunch-dinner-menu">
+        <div className="lunchDinner-heading">
+          <h2>Lunch</h2>
+          <h1>Spreads</h1>
+        </div>
 
-            <h1>Lunch</h1>
-            <ul>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-                <li>Lemon Rice..................$12</li>
-            </ul>
-        </section>
-    )
-}
+        <div className="lunch-dinner-items">
+          {lunch.map((item) => (
+            <div key={item.id} className="lunch-dinner-item">
+              <h3>{item.title}</h3>
+              <h5>{item.description}</h5>
+              <h5>{item.price}</h5>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="lunch-dinner-menu">
+        <div className="lunchDinner-heading">
+          <h2>Lunch</h2>
+          <h1>Spreads</h1>
+        </div>
+        <div className="lunch-dinner-items">
+          {dinner.map((item) => (
+            <div key={item.id} className="lunch-dinner-item">
+              <h3>{item.title}</h3>
+              <h5>{item.description}</h5>
+              <h5>{item.price}</h5>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 export default Menu;
