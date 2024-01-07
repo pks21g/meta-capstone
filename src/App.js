@@ -2,13 +2,14 @@ import "./App.css";
 
 import Footer from "./components/pages/Footer";
 import Nav from "./components/pages/Nav";
-import Main from "./components/pages/Main";
+
+import Path from "./components/pages/Path";
 
 function App() {
   return (
     <>
       <Nav />
-      <Main />
+      <Path />
       <Footer />
     </>
   );

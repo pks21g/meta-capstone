@@ -6,7 +6,7 @@ import Menu from "./Menu";
 import Reservations from "./Reservations";
 import ScrollToTop from "./ScrollToTop";
 
-const Main = () => {
+const Path = () => {
   return (
     <>
       <Routes>
@@ -22,4 +22,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Path;

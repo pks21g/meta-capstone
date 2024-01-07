@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import Main from './Main'
+import Path from './Path'
 const Footer = () => {
   const ScrollToTop = () => {
     
@@ -17,7 +17,7 @@ const Footer = () => {
  
   return (
     <>
-    <Main />
+    <Path />
       <section className="footer-section  container">
         <nav className="footer">
           <div className="logo">
