@@ -18,7 +18,7 @@ const Banner = () => {
           </div>
           {/* Needs Fixing */}
           <div className="banner-btn">
-            <Link path to={"/booking"} className="btn">
+            <Link path={+true} to={"/booking"} className="btn">
               Reserve a Table
             </Link>
           </div>

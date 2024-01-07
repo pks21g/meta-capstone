@@ -1,17 +1,23 @@
 import { Link } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
-
-import { FaHeart } from "react-icons/fa";
-import { Component } from "react";
-
-class Like extends Component {
-  faheart = (<FaHeart style={{ color: "red", fontSize: "100px" }} />);
-  // fafacebook = <FaFacebook />
-}
-
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import Main from './Main'
 const Footer = () => {
+  const ScrollToTop = () => {
+    
+    const {pathName} = useLocation();
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathName])
+    return null;
+    
+  }
+ 
   return (
     <>
+    <Main />
       <section className="footer-section  container">
         <nav className="footer">
           <div className="logo">
@@ -25,22 +31,22 @@ const Footer = () => {
           </div>
           <ul className="footer-nav-items">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/home"  onClick={console.log(useLocation())}>Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={console.log(useLocation())}>About</Link>
             </li>
             <li>
-              <Link to="/Menu">Menu</Link>
+              <Link to="/Menu" onClick={console.log(useLocation())}>Menu</Link>
             </li>
             <li>
-              <Link to="/booking">Reservations</Link>
+              <Link to="/booking" onClick={console.log(useLocation())}>Reservations</Link>
             </li>
             <li>
-              <Link to="/order-online">Order Online</Link>
+              <Link to="/order-online" onClick={console.log(useLocation())}>Order Online</Link>
             </li>
             <li>
-              <Link to="/Login">Login</Link>
+              <Link to="/Login" id="a" onClick={console.log(useLocation())}>Login</Link>
             </li>
           </ul>
           <div className="contact">
@@ -54,7 +60,6 @@ const Footer = () => {
           </div>
           <div className="social-media">
             <h4 className="contact-info">Social Media</h4>
-            <a href="/">{Like.faheart}</a>
             <a href="https://facebook.com" className="contact-info s-btn">
               Facebook
             </a>
@@ -67,6 +72,7 @@ const Footer = () => {
           </div>
         </nav>
       </section>
+      <ScrollToTop />
     </>
   );
 };

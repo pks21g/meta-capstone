@@ -7,28 +7,28 @@ export const lunch = [
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 2,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 3,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 4,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 5,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
@@ -45,35 +45,35 @@ export const dinner = [
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 2,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 3,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 4,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 5,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
     price: "$12.99",
   },
   {
-    id: 1,
+    id: 6,
     title: "Hummus",
     description:
       "Savory dip made with chickpeas, tahini, lemon juice and garlic",
