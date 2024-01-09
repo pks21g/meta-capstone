@@ -23,7 +23,7 @@ const Nav = () => {
           </div>
           <ul className={`nav-items ${menuOpen ? "visible" : ""}`}>
             <li>
-              <Link to="/home">
+              <Link to="/">
                 Home
               </Link>
             </li>

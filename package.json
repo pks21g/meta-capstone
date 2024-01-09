@@ -1,6 +1,6 @@
 {
   "name": "meta-capstone",
-  "homepage": "https://pks21g.github.io/meta-capstone/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",

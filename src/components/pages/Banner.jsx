@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Highlights from "./Highlights";
 import Testimonials from "./Testimonials";
 import About from "./About";
@@ -16,11 +16,10 @@ const Banner = () => {
               traditional recepies served with a modern twist.
             </p>
           </div>
-          {/* Needs Fixing */}
           <div className="banner-btn">
-            <Link path={+true} to={"/booking"} className="btn">
+            <NavLink path={+true} to={"/booking"} className="btn">
               Reserve a Table
-            </Link>
+            </NavLink>
           </div>
         </div>
       </section>

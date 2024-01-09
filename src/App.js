@@ -3,13 +3,13 @@ import "./App.css";
 import Footer from "./components/pages/Footer";
 import Nav from "./components/pages/Nav";
 
-import Path from "./components/pages/Path";
+import Main from "./components/pages/Main";
 
 function App() {
   return (
     <>
       <Nav />
-      <Path />
+      <Main />
       <Footer />
     </>
   );

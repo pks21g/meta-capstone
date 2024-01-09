@@ -6,12 +6,11 @@ import Menu from "./Menu";
 import Reservations from "./Reservations";
 import ScrollToTop from "./ScrollToTop";
 
-const Path = () => {
+const Main = () => {
   return (
     <>
       <Routes>
-        <Route exact path="/home" element={<Banner />}></Route>
-        {/* <Route exact path="/meta-capstone" element={<Banner />}></Route> */}
+        <Route exact path="/" element={<Banner />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
         <Route path="/booking" element={<Reservations />}></Route>
@@ -22,4 +21,4 @@ const Path = () => {
   );
 };
 
-export default Path;
+export default Main;

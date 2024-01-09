@@ -1,23 +1,20 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import Path from './Path'
+
 const Footer = () => {
   const ScrollToTop = () => {
-    
-    const {pathName} = useLocation();
-    
+    const { pathName } = useLocation();
+
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [pathName])
+      window.scrollTo(0, 0);
+    }, [pathName]);
     return null;
-    
-  }
- 
+  };
+
   return (
     <>
-    <Path />
       <section className="footer-section  container">
         <nav className="footer">
           <div className="logo">
@@ -31,22 +28,24 @@ const Footer = () => {
           </div>
           <ul className="footer-nav-items">
             <li>
-              <Link to="/home"  onClick={console.log(useLocation())}>Home</Link>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-              <Link to="/about" onClick={console.log(useLocation())}>About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <Link to="/Menu" onClick={console.log(useLocation())}>Menu</Link>
+              <NavLink to="/Menu">Menu</NavLink>
             </li>
             <li>
-              <Link to="/booking" onClick={console.log(useLocation())}>Reservations</Link>
+              <NavLink to="/booking">Reservations</NavLink>
             </li>
             <li>
-              <Link to="/order-online" onClick={console.log(useLocation())}>Order Online</Link>
+              <NavLink to="/order-online">Order Online</NavLink>
             </li>
             <li>
-              <Link to="/Login" id="a" onClick={console.log(useLocation())}>Login</Link>
+              <NavLink to="/Login" id="a">
+                Login
+              </NavLink>
             </li>
           </ul>
           <div className="contact">
