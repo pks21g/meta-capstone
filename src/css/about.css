@@ -1,0 +1,47 @@
+.about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(234, 226, 183, 0.3);
+  padding: 200px 0;
+  gap: 40px;
+}
+.about .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 60px;
+  background-color: rgb(241, 241, 239, 0.3);
+}
+
+.about h1,
+.menu h1 {
+  font-size: 2rem;
+  color: black;
+}
+
+.about p {
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+.about-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding:0 60px;
+}
+
+.about-images img {
+  width: 80%;
+  rotate: 5deg;
+  margin: 0 auto;
+}
+
+.simg {
+  transform: rotate(-10deg);
+}
