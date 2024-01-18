@@ -1,6 +1,7 @@
 import ownerImage from "../../icons_assets/Mario and Adrian A.jpg";
 import ownerImage2 from "../../icons_assets/Mario and Adrian b.jpg";
 
+
 const About = () => {
   return (
     <section className="about">

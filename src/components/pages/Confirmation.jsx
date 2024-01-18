@@ -1,6 +1,7 @@
+import '../../css/confirmation.css'
 const Confirmation = () => {
   return (
-    <div>
+    <div className="confirmation">
       <h1>Your boking is confirmed!</h1>
     </div>
   );

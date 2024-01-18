@@ -1,0 +1,56 @@
+.banner-section {
+  background-image: url("https://source.unsplash.com/vegetable-dish-in-white-ceramic-bowl-Ww8eQWjMJWk");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width:100%;
+  margin: 70px 0 auto;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100svh - 70px);
+  background-color: rgba(73, 94, 87, .7);
+  /* opacity: 0.7; */
+}
+
+/* .banner-section .banner{
+  position: relative;
+  top:70px;
+} */
+
+.banner-text,
+.banner-btn {
+  width: 100%;
+}
+.banner-text p {
+  width: 50%;
+}
+
+.banner h1 {
+  color: #495e57;
+  text-shadow: 50px 0px 40px rgb(255, 255, 255),
+    -50px 0px 40px rgb(255, 255, 255);
+  font-size: 4rem;
+}
+.banner h3,
+.banner p {
+  color: #333;
+}
+
+.banner p {
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.banner a,
+.highlights-heading a {
+  font-size: 1rem;
+  color: #333333;
+  font-weight: 800;
+}

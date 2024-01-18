@@ -1,13 +1,21 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
+import '../../css/nav.css'
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [closeNav, setCloseNav] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const toggleNavLink = () => {
+    setCloseNav(!closeNav);
+  };
+
+ 
+
   return (
     <>
       <section className="navigation">
@@ -21,36 +29,26 @@ const Nav = () => {
             <div className="bar"></div>
             <div className="bar"></div>
           </div>
-          <ul className={`nav-items ${menuOpen ? "visible" : ""}`}>
-            <li>
-              <Link to="/">
-                Home
-              </Link>
+          <ul
+            className={`nav-items ${menuOpen ? "visible" : ""}`}
+          >
+            <li className="nav-link">
+              <Link to="/meta-capstone">Home</Link>
             </li>
-            <li>
-              <Link to="/about">
-                About
-              </Link>
+            <li className="nav-link">
+              <Link to="/meta-capstone/about">About</Link>
             </li>
-            <li>
-              <Link to="/Menu">
-                Menu
-              </Link>
+            <li className="nav-link">
+              <Link to="/meta-capstone/Menu">Menu</Link>
             </li>
-            <li>
-              <Link to="/booking">
-                Reservations
-              </Link>
+            <li className="nav-link">
+              <Link to="/meta-capstone/booking">Reservations</Link>
             </li>
-            <li>
-              <Link to="/order-online">
-                Order Online
-              </Link>
+            <li className="nav-link">
+              <Link to="/meta-capstone/order-online">Order Online</Link>
             </li>
-            <li>
-              <Link to="/Login">
-                Login
-              </Link>
+            <li className="nav-link">
+              <Link to="/meta-capstone/Login">Login</Link>
             </li>
           </ul>
         </nav>

@@ -1,4 +1,5 @@
 import { lunch, dinner } from "./menulist";
+import '../../css/menu.css'
 const Menu = () => {
   return (
     <section className="menu">

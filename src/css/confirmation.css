@@ -1,0 +1,15 @@
+.confirmation{
+  height: calc(100svh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://source.unsplash.com/variety-of-sliced-fruits-08bOYnH_r_E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.confirmation h1{
+  width: fit-content;
+  margin-left: 100px;
+}

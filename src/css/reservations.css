@@ -1,0 +1,55 @@
+.reservations {
+  background-image: url("https://source.unsplash.com/variety-of-sliced-fruits-08bOYnH_r_E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100svh - 70px);
+  width: 100%;
+  opacity: 0.8;
+}
+
+.rese {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-left: 150px;
+  min-width: 400px;
+}
+.rese .input-group {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reservations label {
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.label span {
+  color: rgb(57, 57, 57);
+  font-weight: 200;
+}
+
+.reservations input {
+  width: 150px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e0e5e5;
+  /* background-color:#e0e5e5; */
+  width: 100%;
+}
+.reservations input[type="submit"]{
+  padding:10px 0;
+  font-size: 1.3rem;
+}
+
+.reservations input[type="submit"]:hover{
+  background-color: var(--primary-color1);
+  border: none;
+}

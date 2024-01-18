@@ -24,7 +24,8 @@ const Highlights = () => {
 
   }
   return (
-    <div className="container">
+    <div className="hl">
+      <div className="container">
         <div className="highlights-heading">
             <h1>This weeks specials!</h1>
             <Link to={'/order-online'} className="btn table">Order Online</Link>
@@ -44,6 +45,8 @@ const Highlights = () => {
         ))}
       </div>
     </div>
+    </div>
+    
   );
 };
 

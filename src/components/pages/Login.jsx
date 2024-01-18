@@ -1,49 +1,50 @@
 import { useState } from "react";
+import "../../css/login.css";
 
 const Login = () => {
-  const [fName, setfName] = useState("");
-  const [lName, setlName] = useState("");
+  const [userName, setUserName] = useState("");
+  const [password, setpassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (fName.length < 3 || lName.length < 3){
-        alert("Length must be 3 or longer");  
-    }
-    else{
-    setfName("");
-    setlName("");
-    console.log(fName + " " + lName);
-    console.log("Form Submitted");
+    if (userName.length < 3 || password.length < 3) {
+      alert("Length must be 3 or longer");
+    } else {
+      setUserName("");
+      setpassword("");
+      console.log(userName + " " + password);
+      console.log("Form Submitted");
     }
   };
 
   return (
-    <section>
+    <section className="login">
       <form action="" onSubmit={handleSubmit}>
         <fieldset className="login-form">
           <div className="input-group">
-            <label htmlFor="fName">First Name:</label>
+            <label htmlFor="userName">Username*</label>
             <input
               type="text"
-              name="fName"
-              id="fName"
-              value={fName}
-              placeholder="First Name"
-              onChange={(e) => setfName(e.target.value)}
+              name="userName"
+              id="userName"
+              value={userName}
+              placeholder="Username"
+              onChange={(e) => setUserName(e.target.value)}
             />
+            {userName.length < 3 ? "abc" : ""}
           </div>
           <div className="input-group">
-            <label htmlFor="lName">Last Name:</label>
+            <label htmlFor="password">Password*</label>
             <input
               type="text"
-              name="lName"
-              id="lName"
-              value={lName}
+              name="password"
+              id="password"
+              value={password}
               placeholder="Last Name"
-              onChange={(e) => setlName(e.target.value)}
+              onChange={(e) => setpassword(e.target.value)}
             />
           </div>
-          <div className="input-group">
+          <div className="input-group sub-btn">
             <input type="submit" value={"Submit"} />
           </div>
         </fieldset>
