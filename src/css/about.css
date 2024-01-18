@@ -14,13 +14,11 @@
   padding: 0 60px;
   background-color: rgb(241, 241, 239, 0.3);
 }
-
 .about h1,
 .menu h1 {
   font-size: 2rem;
   color: black;
 }
-
 .about p {
   line-height: 1.4;
   letter-spacing: 0.1rem;
@@ -35,13 +33,11 @@
   gap: 20px;
   padding:0 60px;
 }
-
 .about-images img {
   width: 80%;
   rotate: 5deg;
   margin: 0 auto;
 }
-
 .simg {
   transform: rotate(-10deg);
 }

@@ -1,18 +1,8 @@
 import { NavLink } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
-// import { useLocation } from "react-router-dom";
-// import { useEffect } from "react";
+import "../../css/footer.css";
 
 const Footer = () => {
-  // const ScrollToTop = () => {
-  //   const { pathName } = useLocation();
-
-  //   useEffect(() => {
-  //     window.scrollTo(0, 0);
-  //   }, [pathName]);
-  //   return null;
-  // };
-
   return (
     <>
       <section className="footer-section  container">

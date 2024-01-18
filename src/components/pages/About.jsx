@@ -1,10 +1,11 @@
 import ownerImage from "../../icons_assets/Mario and Adrian A.jpg";
 import ownerImage2 from "../../icons_assets/Mario and Adrian b.jpg";
+import '../../css/about.css'
 
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about container">
       <div className="info">
         <h1>Little Lemon</h1>
         <h3>Chicago</h3>

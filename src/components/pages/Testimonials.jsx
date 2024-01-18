@@ -1,5 +1,5 @@
 import reviews from "./reviews";
-import '../../css/testimonials.css'
+import "../../css/testimonials.css";
 
 const Testimonials = () => {
   return (

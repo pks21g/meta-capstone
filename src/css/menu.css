@@ -5,13 +5,11 @@
   align-items: center;
   color: white;
   padding: 100px 0;
-  /* background-image: url("https://source.unsplash.com/photography-of-lemon-cw1MAVs4wV8"); */
   background-image: url("https://source.unsplash.com/pasta-dish-on-brown-plate-4J059aGa5s4");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   gap: 100px;
-  /* transform: scaleY( -1); */
 }
 
 .lunch-dinner-menu {

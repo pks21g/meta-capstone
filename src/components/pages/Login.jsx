@@ -20,9 +20,6 @@ const Login = () => {
   return (
     <section className="login">
       <form action="" onSubmit={handleSubmit}>
-        <fieldset className="login-form">
-          <div className="input-group">
-            <label htmlFor="userName">Username*</label>
             <input
               type="text"
               name="userName"
@@ -31,23 +28,18 @@ const Login = () => {
               placeholder="Username"
               onChange={(e) => setUserName(e.target.value)}
             />
-            {userName.length < 3 ? "abc" : ""}
-          </div>
-          <div className="input-group">
-            <label htmlFor="password">Password*</label>
+          
             <input
-              type="text"
+              type="password"
               name="password"
               id="password"
               value={password}
               placeholder="Last Name"
               onChange={(e) => setpassword(e.target.value)}
             />
-          </div>
           <div className="input-group sub-btn">
             <input type="submit" value={"Submit"} />
           </div>
-        </fieldset>
       </form>
     </section>
   );
