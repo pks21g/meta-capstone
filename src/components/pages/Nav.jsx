@@ -1,21 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
-import '../../css/nav.css'
+import "../../css/nav.css";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [closeNav, setCloseNav] = useState(false);
-
+//  const [lnk, setlnk] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  const toggleNavLink = () => {
-    setCloseNav(!closeNav);
-  };
-
- 
-
+  
+  
   return (
     <>
       <section className="navigation">
@@ -29,26 +24,24 @@ const Nav = () => {
             <div className="bar"></div>
             <div className="bar"></div>
           </div>
-          <ul
-            className={`nav-items ${menuOpen ? "visible" : ""}`}
-          >
+          <ul className={`nav-items ${menuOpen ? "visible" : ""}`}>
             <li className="nav-link">
-              <Link to="/meta-capstone">Home</Link>
+              <Link to="/meta-capstone" onClick={() => setMenuOpen(false)}>Home</Link>
             </li>
             <li className="nav-link">
-              <Link to="/meta-capstone/about">About</Link>
+              <Link to="/meta-capstone/about" onClick={() => setMenuOpen(false)}>About</Link>
             </li>
             <li className="nav-link">
-              <Link to="/meta-capstone/Menu">Menu</Link>
+              <Link to="/meta-capstone/Menu" onClick={() => setMenuOpen(false)}>Menu</Link>
             </li>
             <li className="nav-link">
-              <Link to="/meta-capstone/booking">Reservations</Link>
+              <Link to="/meta-capstone/booking" onClick={() => setMenuOpen(false)}>Reservations</Link>
             </li>
             <li className="nav-link">
-              <Link to="/meta-capstone/order-online">Order Online</Link>
+              <Link to="/meta-capstone/order-online" onClick={() => setMenuOpen(false)}>Order Online</Link>
             </li>
             <li className="nav-link">
-              <Link to="/meta-capstone/Login">Login</Link>
+              <Link to="/meta-capstone/Login" onClick={() => setMenuOpen(false)}>Login</Link>
             </li>
           </ul>
         </nav>

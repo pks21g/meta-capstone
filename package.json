@@ -1,9 +1,10 @@
 {
   "name": "meta-capstone",
-  "homepage": ".",
+  "homepage": "https://pks21g.github.io/meta-capstone",
   "version": "0.1.0",
-  "private": true,
   "main": "index.js",
+  "private": true,
+ 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",

@@ -34,7 +34,7 @@ const Login = () => {
               name="password"
               id="password"
               value={password}
-              placeholder="Last Name"
+              placeholder="Password"
               onChange={(e) => setpassword(e.target.value)}
             />
           <div className="input-group sub-btn">
