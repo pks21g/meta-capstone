@@ -46,6 +46,7 @@ form {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  appearance: none;
 }
 .btn:hover,
 .order-button:hover {
@@ -70,16 +71,41 @@ form {
   background-color: black;
   box-shadow: 10px 5px 10px rgba(128, 88, 232, 0.1);
 }
-
+.orderonline{
+  background-color: rgba(73, 94, 87, 0.2);
+  margin-top: 70px;
+}
+.orderonline-text p{
+ line-height: 1.3;
+}
+.orderonline-text p h4{
+  font-size: 2rem;
+}
+.orderonline-text{
+  padding:50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .hl {
   background-color: rgba(73, 94, 87, 0.2);
-  padding: 100px 0;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 .highlights-heading {
-  padding: 100px 0;
+  /* padding: 100px 0; */
+  padding-top: 100px;
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   margin: auto;
+  
+}
+.special{
+  background-color: rgba(73, 94, 87, 0.2);
+  padding: 0 40px
 }
 
 .online-menu-button {

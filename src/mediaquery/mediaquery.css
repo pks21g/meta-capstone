@@ -64,13 +64,13 @@
     justify-content: center;
     padding-left: 50px;
   }
-  .highlights-heading {
+  /* .highlights-heading {
     display: grid;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin: auto;
-  }
+  } */
   .highlights-heading .btn {
     text-align: center;
   }
@@ -242,6 +242,11 @@
   }
   .highlights-heading .btn {
     text-align: center;
+    width: 175px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin: auto;
   }
 
   section.about {

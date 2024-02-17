@@ -1,17 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../icons_assets/Logo.svg";
 import "../../css/footer.css";
 
 const Footer = () => {
   return (
-    <>
-      <section className="footer-section  container">
-        <nav className="footer">
+    <div className="fts">
+      <section className="footer-section">
+        <nav className="footer container">
           <div className="di-1">
             <div className="logo">
-              <a href="home">
+              <Link to="/meta-capstone">
                 <img src={Logo} alt="" />
-              </a>
+              </Link>
               <p>
                 We are a family owned Mediterranean restaurant, focused on
                 traditional recepeies served with modern twist.
@@ -43,12 +43,20 @@ const Footer = () => {
           <div className="di-2">
             <div className="contact">
               <h3>Contact</h3>
-              <p className="contact-info">Address:</p>
-              <p>123 Town Street Road</p>
-              <p className="contact-info">Phone:</p>
-              <p>+12344558456</p>
-              <p className="contact-info">Email:</p>
-              <p>littleLemonrocks@gmail.com</p>
+              <p className="contact-info">
+                Address: <br />
+                123 Town Street Road
+              </p>
+
+              <p className="contact-info">
+                Phone: <br />
+                +12344558456
+              </p>
+
+              <p className="contact-info">
+                Email: <br />
+                littleLemonrocks@gmail.com
+              </p>
             </div>
             <div className="social-media">
               <h4 className="contact-info">Social Media</h4>
@@ -65,7 +73,7 @@ const Footer = () => {
           </div>
         </nav>
       </section>
-    </>
+    </div>
   );
 };
 

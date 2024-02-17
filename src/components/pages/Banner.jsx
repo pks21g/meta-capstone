@@ -3,6 +3,7 @@ import Highlights from "./Highlights";
 import Testimonials from "./Testimonials";
 import About from "./About";
 import '../../css/banner.css'
+import Special from "./Special";
 
 const Banner = () => {
   return (
@@ -24,7 +25,9 @@ const Banner = () => {
           </div>
         </div>
       </section>
+      <Special />
       <Highlights />
+      
       <Testimonials />
       <About />
     </>
