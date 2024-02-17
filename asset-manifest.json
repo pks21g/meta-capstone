@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/meta-capstone/static/css/main.579ab03d.css",
-    "main.js": "/meta-capstone/static/js/main.6ba6a2d4.js",
+    "main.css": "/meta-capstone/static/css/main.55a297a5.css",
+    "main.js": "/meta-capstone/static/js/main.4d98b08e.js",
     "static/media/Mario and Adrian A.jpg": "/meta-capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/Mario and Adrian b.jpg": "/meta-capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
     "static/media/bruchetta.svg": "/meta-capstone/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/greek salad.jpg": "/meta-capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/Logo.svg": "/meta-capstone/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
     "index.html": "/meta-capstone/index.html",
-    "main.579ab03d.css.map": "/meta-capstone/static/css/main.579ab03d.css.map",
-    "main.6ba6a2d4.js.map": "/meta-capstone/static/js/main.6ba6a2d4.js.map"
+    "main.55a297a5.css.map": "/meta-capstone/static/css/main.55a297a5.css.map",
+    "main.4d98b08e.js.map": "/meta-capstone/static/js/main.4d98b08e.js.map"
   },
   "entrypoints": [
-    "static/css/main.579ab03d.css",
-    "static/js/main.6ba6a2d4.js"
+    "static/css/main.55a297a5.css",
+    "static/js/main.4d98b08e.js"
   ]
 }
